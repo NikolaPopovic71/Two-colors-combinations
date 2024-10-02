@@ -1,1 +1,1 @@
-# Two-colors-combinations
+# Two colors combinations
