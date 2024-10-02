@@ -1,0 +1,554 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #f1b970;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg);
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card {
+  width: 50rem;
+  height: 20rem;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 6px 4px 17px 5px rgba(112, 112, 112, 0.65);
+  display: flex;
+}
+
+.card-half {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: relative;
+}
+
+.number {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1rem;
+}
+
+.hex-code {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nav-button {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #0b6477;
+  color: var(--bg);
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 10px 14px -7px #276873;
+}
+
+.nav-button:hover {
+  background-color: #408c99;
+}
+
+#nav-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+button,
+#card-number {
+  width: auto;
+  height: auto;
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #0b6477 5%, #408c99 100%);
+  border-radius: 8px;
+  cursor: pointer;
+  color: var(--bg);
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 0.6rem 0.7rem;
+  text-shadow: 0px 1px 0px #3d768a;
+  margin: 0 0.5rem;
+}
+
+#card-number::placeholder {
+  color: var(--bg);
+  opacity: 1;
+  text-shadow: 0px 1px 0px #3d768a;
+}
+
+button:hover,
+#card-number:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+}
+
+button:focus,
+#card-number:focus {
+  outline: none;
+  background-color: white;
+}
+
+#memorized-cards {
+  font-size: 1rem;
+  color: #0b6477;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  max-width: 50%; /* Add max-width to prevent overflow */
+  margin: 0 auto 2rem auto; /* Ensure it's centered and has space at the bottom */
+  
+}
+
+#memorized-cards h3 {
+  margin-right: 0.5rem; /* Space between the text and the numbers */
+}
+
+#memorized-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center; /* Center the items */
+  max-width: 100%; /* Ensure no overflow */
+  overflow-y: auto; /* Enable scrolling only for the list */
+  white-space: nowrap; /* Ensure the items don't wrap and stay in one line */
+}
+
+
+#memorized-list li {
+  display: inline-block; /* Ensure items are displayed horizontally */
+  padding: 0.3rem;
+}
+
+.socials-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  width: 100%;
+  position: relative; /* Ensure it stays relative */
+}
+
+#social-container {
+  position: fixed;
+  bottom: 5.3rem;
+  right: 7.6rem;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
+#click-hint {
+  font-size: 0.9rem;
+  color: red;
+  margin-left: 0.5rem;
+  white-space: nowrap;
+}
+
+/* Hide the socials-menu by default */
+.socials-menu {
+  opacity: 0;
+  pointer-events: none; /* Disable interaction when hidden */
+  transition: opacity 0.5s ease-in-out;
+}
+
+.socials-menu.active {
+  opacity: 1;
+  pointer-events: auto; /* Enable interaction when visible */
+}
+
+
+.social {
+  position: fixed;
+  list-style: none;
+  bottom: 5rem;
+  right: 5rem;
+  display: grid;
+  cursor: pointer;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  outline: 2px solid white;
+  outline-offset: 3px;
+  transition: all 0.5s ease-in-out;
+}
+
+.social img {
+  width: 2rem;
+  height: 2rem;
+  display: block;
+}
+
+.active .social:nth-child(1) {
+  transform: translate(-30px, -45px);
+}
+
+.active .social:nth-child(2) {
+  transform: translate(-50px, 12px);
+}
+
+.active .social:nth-child(3) {
+  transform: translate(30px, -45px);
+}
+
+.active .social:nth-child(4) {
+  transform: translate(50px, 12px);
+}
+
+.active .social:nth-child(5) {
+  transform: translateY(50px);
+}
+
+
+#share-button {
+  position: fixed;
+  bottom: 4.6rem;
+  right: 4.6rem;
+  width: 3rem;
+  height: 3rem;
+  z-index: 2;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  transition: all 0.4s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+}
+
+#share-button img {
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: cover;
+}
+
+.active #share-button img {
+  transform: scale(1.03);
+}
+
+
+
+.card-thanks {
+  position: fixed;
+  bottom: 2rem;
+  left: 4rem;
+  width: 10rem;
+  height: 7rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9);
+  background: #513449;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #e8f3e3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.heart {
+  opacity: 0;
+  transform: scale(0); /* Start scaled down */
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0); /* Center and scale */
+  width: 50px; /* Adjust heart size */
+  height: 50px;
+}
+
+.heart:nth-child(1) {
+  top: 30%;
+  left: 40%;
+}
+
+.heart:nth-child(2) {
+  top: 30%;
+  left: 35%;
+}
+
+.heart:nth-child(3) {
+  top: 30%;
+  left: 70%;
+}
+
+.card-thanks:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.card__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(to bottom, #0b6477 5%, #408c99 100%);
+  color: var(--bg);
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card-thanks:hover .card__content {
+  transform: rotateX(0deg);
+}
+
+h3 {
+  font-size: clamp(.8rem, 2.5vw, 1.2rem);
+}
+  
+
+
+.card__title {
+  margin-top: 0.5rem;
+  font-size: .8rem;
+  color: var(--bg);
+  font-weight: 600;
+  text-align: center;
+}
+
+li::marker {
+  color: #ec605e;
+}
+
+ul {
+  text-align: left;
+}
+
+.card__description {
+  font-size: 0.9rem;
+  color: var(--bg);
+  font-weight: 700;
+  margin: 0;
+}
+
+.link {
+  color: #ec605e;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #513449;
+}
+
+
+/* Media query for smaller screens (phones) */
+@media ( max-width: 928px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Start content from the top */
+    align-items: center;
+    padding: 0;
+    margin: 1rem auto;
+    height: 100vh;
+  }
+  /* Stack buttons vertically and adjust margin */
+  #nav-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center buttons in the column */
+    margin-top: 2rem;
+    gap: 1rem; /* Adds space between buttons */
+  }
+
+  /* Adjust the card size for better responsiveness */
+  .card {
+    width: 60vw;
+    height: 35vh;
+  }
+
+  /* Make hex codes smaller to fit the smaller card */
+  .hex-code {
+    font-size: 1.1rem;
+  }
+
+  /* Ensure buttons scale down */
+  #nav-row button {
+    width: 80%; /* Make buttons full-width */
+    height: auto;
+    font-size: 0.6rem; /* Adjust the font size */
+  }
+
+  /* Adjust input and buttons for responsiveness */
+  button,
+  #card-number {
+    width: 80%; /* Increased width for easier input */
+    font-size: 0.6rem; /* Adjust the font size */
+  }
+
+  /* Make memorized cards text smaller */
+  #memorized-cards {
+    font-size: 0.8rem;
+  }
+
+  /* Ensure left and right navigation arrows adjust on smaller screens */
+  .nav-button {
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: .8rem;
+  }
+
+  .social-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #social-container {
+    position: static; /* Make sure it's within the flow of the document */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .5rem;
+    padding: 0; /* Adjust the spacing as needed */
+    width: 100%;
+  }
+
+  #click-hint {
+    margin: 0 0 0.5rem 0; /* Space between text and image */
+    text-align: center;
+  }
+
+  #share-button {
+    position: static;
+    margin: 0.5rem auto; /* Center the button initially */
+    transition: all 0.4s ease-in-out;
+  }
+
+  .social {
+    position: static; /* Make sure it's within the flow of the document */
+    margin: 0.7rem; /* Adjust margin as needed */
+    display: inline-block; /* Display inline to align them properly */
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .socials-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Wrap the items to the next line if needed */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .social img {
+    width: 1.5rem; /* Adjust size as needed */
+    height: 1.5rem; /* Adjust size as needed */
+    display: block;
+  }
+
+  .active .social:nth-child(1),
+  .active .social:nth-child(2),
+  .active .social:nth-child(3),
+  .active .social:nth-child(4),
+  .active .social:nth-child(5) {
+    transform: none; /* Reset transform for mobile */
+  }
+
+  .card-thanks {
+    display: flex;
+    position: relative; 
+    width: 40%; /* Take almost full width on smaller screens */
+    height: auto;
+    margin-top: 2rem;
+    background: #513449;
+    border-radius: 8px;
+    box-shadow: 0px 10px 14px -7px #276873;
+    padding: 4rem; /* Increased padding for better look */
+    left: .1rem;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  ul {
+    text-align: left; /* Ensure list is aligned to the left */
+    padding-left: 0; /* Remove any default padding */
+    margin-left: 0; /* Ensure it's close to the edge */
+    list-style-position: inside; /* Ensure bullet points stay within the left margin */
+  }
+
+  .card__content {
+    font-size: 0.7rem;
+    padding: 1rem;
+    text-align: left; /* Ensure content stays left-aligned */
+  }
+
+  .card__description {
+    font-size: 0.7rem;
+    color: var(--bg);
+    font-weight: 700;
+    margin: 0; /* Ensure no auto-centering */
+    text-align: left; /* Ensure it stays left-aligned */
+  }
+
+  .card-thanks:hover .card__content {
+    transform: rotateX(0deg);
+  }
+
+  .heart {
+    opacity: 0;
+    width: 40px;
+    height: 40px;
+  }
+}

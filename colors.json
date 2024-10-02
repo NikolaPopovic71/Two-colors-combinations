@@ -1,0 +1,525 @@
+[
+  {
+    "topColor": "#f6f4ec",
+    "topTextColor": "#081917",
+    "bottomColor": "#081917",
+    "bottomTextColor": "#f6f4ec"
+  },
+  {
+    "topColor": "#fafffd",
+    "topTextColor": "#252829",
+    "bottomColor": "#252829",
+    "bottomTextColor": "#fafffd"
+  },
+  {
+    "topColor": "#fff5ee",
+    "topTextColor": "#342e37",
+    "bottomColor": "#342e37",
+    "bottomTextColor": "#fff5ee"
+  },
+  {
+    "topColor": "#fcf5e5",
+    "topTextColor": "#1e0300",
+    "bottomColor": "#1e0300",
+    "bottomTextColor": "#fcf5e5"
+  },
+  {
+    "topColor": "#e8e8e8",
+    "topTextColor": "#323131",
+    "bottomColor": "#323131",
+    "bottomTextColor": "#e8e8e8"
+  },
+  {
+    "topColor": "#e8e8e8",
+    "topTextColor": "#190d05",
+    "bottomColor": "#190d05",
+    "bottomTextColor": "#e8e8e8"
+  },
+  {
+    "topColor": "#f9f8f2",
+    "topTextColor": "#272727",
+    "bottomColor": "#272727",
+    "bottomTextColor": "#f9f8f2"
+  },
+  {
+    "topColor": "#e9ffdb",
+    "topTextColor": "#af6e4d",
+    "bottomColor": "#af6e4d",
+    "bottomTextColor": "#e9ffdb"
+  },
+  {
+    "topColor": "#fbceb1",
+    "topTextColor": "#b284be",
+    "bottomColor": "#b284be",
+    "bottomTextColor": "#fbceb1"
+  },
+  {
+    "topColor": "#eae0c8",
+    "topTextColor": "#40826d",
+    "bottomColor": "#40826d",
+    "bottomTextColor": "#eae0c8"
+  },
+  {
+    "topColor": "#e6e6fa",
+    "topTextColor": "#ed2939",
+    "bottomColor": "#ed2939",
+    "bottomTextColor": "#e6e6fa"
+  },
+  {
+    "topColor": "#e9b3f7",
+    "topTextColor": "#653203",
+    "bottomColor": "#653203",
+    "bottomTextColor": "#e9b3f7"
+  },
+  {
+    "topColor": "#cbb97f",
+    "topTextColor": "#142030",
+    "bottomColor": "#142030",
+    "bottomTextColor": "#cbb97f"
+  },
+  {
+    "topColor": "#f7a8a8",
+    "topTextColor": "#3d0707",
+    "bottomColor": "#3d0707",
+    "bottomTextColor": "#f7a8a8"
+  },
+  
+  {
+    "topColor": "#f3d0b3",
+    "topTextColor": "#273316",
+    "bottomColor": "#273316",
+    "bottomTextColor": "#f3d0b3"
+  },
+  {
+    "topColor": "#ebc8b3",
+    "topTextColor": "#8a6729",
+    "bottomColor": "#8a6729",
+    "bottomTextColor": "#ebc8b3"
+  },
+  {
+    "topColor": "#ee8e46",
+    "topTextColor": "#7f3700",
+    "bottomColor": "#7f3700",
+    "bottomTextColor": "#ee8e46"
+  },
+  {
+    "topColor": "#fcf8d6",
+    "topTextColor": "#5e2217",
+    "bottomColor": "#5e2217",
+    "bottomTextColor": "#fcf8d6"
+  },
+  {
+    "topColor": "#e2e2b6",
+    "topTextColor": "#021526",
+    "bottomColor": "#021526",
+    "bottomTextColor": "#e2e2b6"
+  },
+  {
+    "topColor": "#ff885b",
+    "topTextColor": "#111d12",
+    "bottomColor": "#111d12",
+    "bottomTextColor": "#ff885b"
+  },
+  {
+    "topColor": "#eedf7a",
+    "topTextColor": "#343131",
+    "bottomColor": "#343131",
+    "bottomTextColor": "#eedf7a"
+  },
+  {
+    "topColor": "#2aca72",
+    "topTextColor": "#1c1c28",
+    "bottomColor": "#1c1c28",
+    "bottomTextColor": "#2aca72"
+  },
+  {
+    "topColor": "#edbc6a",
+    "topTextColor": "#0e3830",
+    "bottomColor": "#0e3830",
+    "bottomTextColor": "#edbc6a"
+  },
+  {
+    "topColor": "#f1f1f1",
+    "topTextColor": "#3d6734",
+    "bottomColor": "#3d6734",
+    "bottomTextColor": "#f1f1f1"
+  },
+  {
+    "topColor": "#eab099",
+    "topTextColor": "#6579be",
+    "bottomColor": "#6579be",
+    "bottomTextColor": "#eab099"
+  },
+  {
+    "topColor": "#fcfaee",
+    "topTextColor": "#507687",
+    "bottomColor": "#507687",
+    "bottomTextColor": "#fcfaee"
+  },
+  {
+    "topColor": "#f2cff1",
+    "topTextColor": "#285b23",
+    "bottomColor": "#285b23",
+    "bottomTextColor": "#f2cff1"
+  },
+  {
+    "topColor": "#d7de50",
+    "topTextColor": "#358926",
+    "bottomColor": "#358926",
+    "bottomTextColor": "#d7de50"
+  },
+  {
+    "topColor": "#ece7e2",
+    "topTextColor": "#4a7766",
+    "bottomColor": "#4a7766",
+    "bottomTextColor": "#ece7e2"
+  },
+  {
+    "topColor": "#fff884",
+    "topTextColor": "#9b2037",
+    "bottomColor": "#9b2037",
+    "bottomTextColor": "#fff884"
+  },
+  {
+    "topColor": "#92736c",
+    "topTextColor": "#fdf1f5",
+    "bottomColor": "#fdf1f5",
+    "bottomTextColor": "#92736c"
+  },
+  {
+    "topColor": "#1a1d29",
+    "topTextColor": "#b1b2b5",
+    "bottomColor": "#b1b2b5",
+    "bottomTextColor": "#1a1d29"
+  },
+  {
+    "topColor": "#16423c",
+    "topTextColor": "#e9efec",
+    "bottomColor": "#e9efec",
+    "bottomTextColor": "#16423c"
+  },
+  {
+    "topColor": "#173b45",
+    "topTextColor": "#ff8225",
+    "bottomColor": "#ff8225",
+    "bottomTextColor": "#173b45"
+  },
+  {
+    "topColor": "#19485f",
+    "topTextColor": "#d9e0a4",
+    "bottomColor": "#d9e0a4",
+    "bottomTextColor": "#19485f"
+  },
+  {
+    "topColor": "#ffefd5",
+    "topTextColor": "#ff8343",
+    "bottomColor": "#ff8343",
+    "bottomTextColor": "#ffefd5"
+  },
+  {
+    "topColor": "#c2b8ac",
+    "topTextColor": "#eae4dd",
+    "bottomColor": "#eae4dd",
+    "bottomTextColor": "#cab8ac"
+  },
+  {
+    "topColor": "#fdf1f5",
+    "topTextColor": "#ee8e46",
+    "bottomColor": "#ee8e46",
+    "bottomTextColor": "#fdf1f5"
+  },
+  {
+    "topColor": "#6c169c",
+    "topTextColor": "#e8b783",
+    "bottomColor": "#e8b783",
+    "bottomTextColor": "#6c169c"
+  },
+  {
+    "topColor": "#ec605e",
+    "topTextColor": "#513449",
+    "bottomColor": "#513449",
+    "bottomTextColor": "#ec605e"
+  },
+  {
+    "topColor": "#e22a2a",
+    "topTextColor": "#fff3e2",
+    "bottomColor": "#fff3e2",
+    "bottomTextColor": "#e22a2a"
+  },
+  {
+    "topColor": "#e47464",
+    "topTextColor": "#eee9e4",
+    "bottomColor": "#eee9e4",
+    "bottomTextColor": "#e47464"
+  },
+  {
+    "topColor": "#e9dfd8",
+    "topTextColor": "#afafda",
+    "bottomColor": "#afafda",
+    "bottomTextColor": "#e9dfd8"
+  },
+  {
+    "topColor": "#c4e9ec",
+    "topTextColor": "#2d3480",
+    "bottomColor": "#2d3480",
+    "bottomTextColor": "#c4e9ec"
+  },
+  {
+    "topColor": "#f7fcff",
+    "topTextColor": "#9f2a00",
+    "bottomColor": "#9f2a00",
+    "bottomTextColor": "#f7fcff"
+  },
+  {
+    "topColor": "#16325b",
+    "topTextColor": "#ffdc7f",
+    "bottomColor": "#ffdc7f",
+    "bottomTextColor": "#16325b"
+  },
+  {
+    "topColor": "#161d6f",
+    "topTextColor": "#c7ffd8",
+    "bottomColor": "#c7ffd8",
+    "bottomTextColor": "#161d6f"
+  },
+  {
+    "topColor": "#f8c617",
+    "topTextColor": "#252c37",
+    "bottomColor": "#252c37",
+    "bottomTextColor": "#f8c617"
+  },
+  {
+    "topColor": "#ffc07c",
+    "topTextColor": "#0245a4",
+    "bottomColor": "#0245a4",
+    "bottomTextColor": "#ffc07c"
+  },
+  {
+    "topColor": "#5d4100",
+    "topTextColor": "#c4e8bf",
+    "bottomColor": "#c4e8bf",
+    "bottomTextColor": "#5d4100"
+  },
+  {
+    "topColor": "#112a46",
+    "topTextColor": "#acc8e5",
+    "bottomColor": "#acc8e5",
+    "bottomTextColor": "#112a46"
+  },
+  {
+    "topColor": "#e4e312",
+    "topTextColor": "#120112",
+    "bottomColor": "#120112",
+    "bottomTextColor": "#e4e312"
+  },
+  {
+    "topColor": "#153448",
+    "topTextColor": "#dfd0b8",
+    "bottomColor": "#dfd0b8",
+    "bottomTextColor": "#153448"
+  },
+  {
+    "topColor": "#222831",
+    "topTextColor": "#eeeeee",
+    "bottomColor": "#eeeeee",
+    "bottomTextColor": "#222831"
+  },
+  {
+    "topColor": "#987070",
+    "topTextColor": "#f1e5d1",
+    "bottomColor": "#f1e5d1",
+    "bottomTextColor": "#987070"
+  },
+  {
+    "topColor": "#254336",
+    "topTextColor": "#b7b597",
+    "bottomColor": "#b7b597",
+    "bottomTextColor": "#254336"
+  },
+  {
+    "topColor": "#543310",
+    "topTextColor": "#fcf1e3",
+    "bottomColor": "#fcf1e3",
+    "bottomTextColor": "#543310"
+  },
+  {
+    "topColor": "#800000",
+    "topTextColor": "#dad4b5",
+    "bottomColor": "#dad4b5",
+    "bottomTextColor": "#800000"
+  },
+  {
+    "topColor": "#f0cbf0",
+    "topTextColor": "#15496a",
+    "bottomColor": "#15496a",
+    "bottomTextColor": "#f0cbf0"
+  },
+  {
+    "topColor": "#df4671",
+    "topTextColor": "#f3e9cf",
+    "bottomColor": "#f3e9cf",
+    "bottomTextColor": "#df4671"
+  },
+  {
+    "topColor": "#eadaad",
+    "topTextColor": "#dd5e3f",
+    "bottomColor": "#dd5e3f",
+    "bottomTextColor": "#eadaad"
+  },
+  {
+    "topColor": "#32bc81",
+    "topTextColor": "#203d3f",
+    "bottomColor": "#203d3f",
+    "bottomTextColor": "#32bc81"
+  },
+  {
+    "topColor": "#7d6b58",
+    "topTextColor": "#eae8e6",
+    "bottomColor": "#eae8e6",
+    "bottomTextColor": "#7d6b58"
+  },
+  {
+    "topColor": "#0c3d48",
+    "topTextColor": "#a4bf9d",
+    "bottomColor": "#a4bf9d",
+    "bottomTextColor": "#0c3d48"
+  },
+  {
+    "topColor": "#bba3ae",
+    "topTextColor": "#6d123f",
+    "bottomColor": "#6d123f",
+    "bottomTextColor": "#bba3ae"
+  },
+  {
+    "topColor": "#92b49c",
+    "topTextColor": "#b24839",
+    "bottomColor": "#b24839",
+    "bottomTextColor": "#92b49c"
+  },
+  {
+    "topColor": "#4d4d4d",
+    "topTextColor": "#e4af76",
+    "bottomColor": "#e4af76",
+    "bottomTextColor": "#4d4d4d"
+  },
+  {
+    "topColor": "#b4b4b4",
+    "topTextColor": "#1f7779",
+    "bottomColor": "#1f7779",
+    "bottomTextColor": "#b4b4b4"
+  },
+  {
+    "topColor": "#b9adcf",
+    "topTextColor": "#4d376d",
+    "bottomColor": "#4d376d",
+    "bottomTextColor": "#bdadcf"
+  },
+  {
+    "topColor": "#f54800",
+    "topTextColor": "#afafda",
+    "bottomColor": "#afafda",
+    "bottomTextColor": "#f54800"
+  },
+  {
+    "topColor": "#fcf8f7",
+    "topTextColor": "#5fa777",
+    "bottomColor": "#5fa777",
+    "bottomTextColor": "#fcf8f7"
+  },
+  {
+    "topColor": "#e6d62d",
+    "topTextColor": "#292929",
+    "bottomColor": "#292929",
+    "bottomTextColor": "#e6d62d"
+  },
+  {
+    "topColor": "#f9f07e",
+    "topTextColor": "#004952",
+    "bottomColor": "#004952",
+    "bottomTextColor": "#f9f07e"
+  },
+  {
+    "topColor": "#fdf5e6",
+    "topTextColor": "#bc885d",
+    "bottomColor": "#bc885d",
+    "bottomTextColor": "#fdf6e6"
+  },
+  {
+    "topColor": "#f3cbd4",
+    "topTextColor": "#0f52ba",
+    "bottomColor": "#0f52ba",
+    "bottomTextColor": "#f3cbd4"
+  },
+  {
+    "topColor": "#ff8c00",
+    "topTextColor": "#8b111e",
+    "bottomColor": "#8b111e",
+    "bottomTextColor": "#ff8c00"
+  },
+  {
+    "topColor": "#f8cc27",
+    "topTextColor": "#ea541c",
+    "bottomColor": "#ea541c",
+    "bottomTextColor": "#f8cc27"
+  },
+  {
+    "topColor": "#ffe135",
+    "topTextColor": "#3dafd0",
+    "bottomColor": "#3dafd0",
+    "bottomTextColor": "#ffe135"
+  },
+  {
+    "topColor": "#fd5e53",
+    "topTextColor": "#191970",
+    "bottomColor": "#191970",
+    "bottomTextColor": "#fd5e53"
+  },
+  {
+    "topColor": "#c4ffa5",
+    "topTextColor": "#105a41",
+    "bottomColor": "#105a41",
+    "bottomTextColor": "#c4ffa5"
+  },
+  {
+    "topColor": "#e3cdb0",
+    "topTextColor": "#0a3362",
+    "bottomColor": "#0a3362",
+    "bottomTextColor": "#e3cdb0"
+  },
+  {
+    "topColor": "#ffa897",
+    "topTextColor": "#d53169",
+    "bottomColor": "#d53169",
+    "bottomTextColor": "#ffa897"
+  },
+  {
+    "topColor": "#ffd731",
+    "topTextColor": "#b84800",
+    "bottomColor": "#b84800",
+    "bottomTextColor": "#ffd731"
+  },
+  {
+    "topColor": "#daddd0",
+    "topTextColor": "#364ce4",
+    "bottomColor": "#364ce4",
+    "bottomTextColor": "#daddd0"
+  },
+  {
+    "topColor": "#f0b978",
+    "topTextColor": "#c3131e",
+    "bottomColor": "#c3131e",
+    "bottomTextColor": "#f0b978"
+  },
+  {
+    "topColor": "#cea5c7",
+    "topTextColor": "#471044",
+    "bottomColor": "#471044",
+    "bottomTextColor": "#cea5c7"
+  },
+  {
+    "topColor": "#ebf29c",
+    "topTextColor": "#2a2a2e",
+    "bottomColor": "#2a2a2e",
+    "bottomTextColor": "#ebf29c"
+  }
+]
